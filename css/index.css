@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 1920px;
+	min-width: 1920px;
+	background-color: hotpink;
+}
+
+.all{
+	width: 100%;
+	height: 812px;
+	/*background-color: black;*/
+}
+.left{
+	width: 448px;
+	height: 812px;
+	background-color: antiquewhite;
+	position: absolute;
+}
+.center{
+	width: 1024px;
+	height: 812px;
+	background-color: blue;
+	background-image: url('../img/bgpic.png');
+	margin-left: 448px;
+	position: absolute
+}
+.right{
+	width: 448px;
+	height: 812px;
+	background-color: green;
+	margin-left: 1472px;
+}
+.left-up{
+	width: 448px;
+	height: 406px;
+	background-color: red;
+}
+.left-down{
+	width: 448px;
+	height: 406px;
+	background-color: gold;
+}
+.right-up{
+	width: 448px;
+	height: 406px;
+	background-color: red;
+}
+.right-down{
+	width: 448px;
+	height: 406px;
+	background-color: gold;
+}
+.left-up img{
+	height: 100%;
+	float: right;
+}
+.left-down img{
+	height: 100%;
+	float: right;
+}
+.right-up img{
+	height: 100%;
+	float: left;
+}
+.right-down img{
+	height: 100%;
+	float: left;
+}
+#bigimg {
+/*	height: 812px;
+	width: 100%;
+	background-color: black;*/
+	position: absolute;
+}
+#bigimg img{
+	height: 100%;
+}
