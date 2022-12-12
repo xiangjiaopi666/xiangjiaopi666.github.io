@@ -1,4 +1,4 @@
-/*::-webkit-scrollbar{display: none;}*/
+::-webkit-scrollbar{display: none;}
 *{
 	margin: 0;
 	padding: 0;
@@ -6,6 +6,12 @@
 body{
 	height: 100%;
 	min-height: 812px;
+}
+.all div{
+	display: inline-block;
+}
+.face{
+	background-image: url('../img/No1.png');
 }
 .left{
 	width: 128px;
@@ -16,10 +22,11 @@ body{
 	position: absolute;
 }
 .center{
-	width: 1500px;
+	width: 1024px;
 	height: 940px;
 	background-color: blue;
-	padding-left: 128px;
+	position: absolute;
+	left: 128px;
 }
 .center_top{
 	height: auto;
@@ -29,9 +36,14 @@ body{
 	width: 1024px;
 	background-image: url('../img/bgpic.png');
 }
-.face{
-	background-image: url('../img/No1.png');
+.right{
+	height: 940px;
+	width: 500px;
+	background-color: red;
+	position: absolute;
+	left: 1152px;
 }
+
 
 
 
