@@ -15,7 +15,7 @@ body{
 }
 .left{
 	width: 128px;
-	max-height: 940px;
+	max-height: 1152px;
 	background-color: black;
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -23,7 +23,7 @@ body{
 }
 .center{
 	width: 1024px;
-	height: 940px;
+	height: 1152px;
 	background-color: blue;
 	position: absolute;
 	left: 128px;
@@ -35,12 +35,13 @@ body{
 	background-color: darksalmon;
 }
 .center_down{
-	height: 812px;
+	height: 1024px;
 	width: 1024px;
-	background-image: url('../img/bgpic.png');
+	background-image: url('../img/bgpic1024.png');
+	background-color: dodgerblue;
 }
 .right{
-	height: 940px;
+	height: 1152px;
 	width: 500px;
 	background-color: red;
 	position: absolute;
