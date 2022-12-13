@@ -31,7 +31,7 @@ body{
 .center_top{
 	height: 128px;
 	width: 1024px;
-/*	background-image: url('../img/skill/c_kai.png');*/
+	background-image: url('../img/centertopbg.png');
 	background-color: darksalmon;
 }
 .center_down{
