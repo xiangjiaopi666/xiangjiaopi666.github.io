@@ -29,15 +29,15 @@ $(document).ready(
 			)
 		}
 )*/
+
+/*			img/skill/c_kag.png		*/
 $(document).ready(
 	function(){
 		$(".left>img").click(
-			function skill(){
-				var obj = $(this).attr("src")
-				var skillimg = '<img src = '+ obj + '></img>';
-				console.log(obj);
-				console.log(skillimg);
-				console.log($(".center_top>img").src);
+			function (){
+				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png"></img>';
+				console.log(skillurl);
+				$('.center_top').html(skillurl);
 			}
 		)
 	}
