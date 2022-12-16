@@ -39,6 +39,7 @@ body{
 	width: 1024px;
 	background-image: url('../img/bgpic1024.png');
 	background-color: dodgerblue;
+	overflow-y: auto;
 }
 .right{
 	height: 1152px;
