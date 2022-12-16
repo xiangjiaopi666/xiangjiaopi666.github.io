@@ -1,4 +1,4 @@
-::-webkit-scrollbar{display: none;}
+/*::-webkit-scrollbar{display: none;}*/
 *{
 	margin: 0;
 	padding: 0;
@@ -14,7 +14,7 @@ body{
 	background-image: url('../img/No1.png');
 }
 .left{
-	width: 128px;
+	width: 148px;
 	max-height: 1152px;
 	background-color: black;
 	overflow-y: auto;
@@ -36,7 +36,7 @@ body{
 }
 .center_down{
 	height: 1024px;
-	width: 1024px;
+	width: 1044px;
 	background-image: url('../img/bgpic1024.png');
 	background-color: dodgerblue;
 	overflow-y: auto;
@@ -47,6 +47,14 @@ body{
 	background-color: red;
 	position: absolute;
 	left: 1152px;
+}
+.right_top{
+	height: 128px;
+	max-width: 130%;
+	overflow-x: auto;
+}
+.right_top img{
+	float: left;
 }
 
 
