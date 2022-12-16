@@ -37,7 +37,7 @@ $(document).ready(
 			function (){
 				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png"></img>';
 				console.log(skillurl);
-				$('.center_top').html(skillurl);
+				/*$('.center_top').html(skillurl);*/
 				/*var bodyurl = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png"></img>'+'<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png"></img>'+'<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_body.png"></img>'+'<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_bath_body.png"></img>';
 				$('.center_down').html(bodyurl);*/
 				var bodyurl1 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
