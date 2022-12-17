@@ -43,20 +43,24 @@ body{
 }
 .right{
 	height: 1152px;
-	width: 500px;
+	width: 512px;
 	background-color: red;
 	position: absolute;
 	left: 1152px;
 }
 .right_top{
-	height: 128px;
-	max-width: 130%;
+	height:auto;
+	width: 512px;
 	overflow-x: auto;
+	top: 20px;
 }
-.right_top img{
-	float: left;
+.right_down{
+	height: 87.5%;
+	width: 100%;
+	background-color: aqua;
+	bottom: 0;
+	position: absolute;
 }
-
 
 
 

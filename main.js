@@ -36,10 +36,7 @@ $(document).ready(
 		$(".left>img").click(
 			function (){
 				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png"></img>';
-				console.log(skillurl);
 				$('.center_top').html(skillurl);
-				/*var bodyurl = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png"></img>'+'<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png"></img>'+'<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_body.png"></img>'+'<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_bath_body.png"></img>';
-				$('.center_down').html(bodyurl);*/
 				var bodyurl1 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
 				var bodyurl2 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png" alt=\'\'>';
 				var bodyurl3 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
@@ -48,13 +45,18 @@ $(document).ready(
 				var bodyurl6 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
 				var bodyurl=bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6;
 				$('.center_down').html(bodyurl);
-				console.log(bodyurl);
-				/*img/body/kai/b_kai_def_body.png
-				<img src="img/body/kai/b_kai_def_dbody.png" alt="">
-				<img src="img/body/kai/s_kai_def_body.png" alt="">
-				<img src="img/body/kai/s_kai_bath_body.png" alt="">*/
-				
+				var faceurl = '';
+				for (i = 0;i <20;i++) {
+					if(i<10){
+						i = '0' + i
+					}
+					var obj = 'faceurl'+i;
+					obj='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_face_'+i+'.png" alt=\'\' class="faceall">';
+					faceurl = faceurl + obj;
+				}
+				$('.right_top').html(faceurl);
 			}
+			
 		)
 	}
 )
