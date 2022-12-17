@@ -55,6 +55,26 @@ $(document).ready(
 					faceurl = faceurl + obj;
 				}
 				$('.right_top').html(faceurl);
+				/*
+				<img src="img/faceall/kai/s_kai_def_face_01.png" alt="" onclick="play()">
+																													<audio src="audio/kai/v_kai_000.mp3" id="v_kai_000"></audio>
+				*/
+				var audiourl = '';
+				for (j = 0 ; j<30;j++) {
+					if (j<10) {
+						j = '00' + j
+						
+					} else {
+						j = '0' +j
+					}
+					var xyz = 'audio' + j;
+					/*src="https://tukitama.com/tamacolle/resources/v_kai_001.mp3"*/
+					/*xyz = '<audio src="audio/'+$(this).attr("id")+'/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';
+					*/xyz = '<audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';
+					console.log(xyz);
+					audiourl = audiourl + xyz;
+				}
+				$('.talk').html(audiourl);
 			}
 			
 		)
