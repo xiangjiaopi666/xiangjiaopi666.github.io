@@ -69,12 +69,11 @@ $(document).ready(
 					}
 					var xyz = 'audio' + j;
 					/*src="https://tukitama.com/tamacolle/resources/v_kai_001.mp3"*/
-					/*xyz = '<audio src="audio/'+$(this).attr("id")+'/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';
-					*/xyz = '<audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';
-					console.log(xyz);
+					/*xyz = '<audio src="audio/'+$(this).attr("id")+'/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';*/
+					xyz = '<audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';
 					audiourl = audiourl + xyz;
 				}
-				$('.talk').html(audiourl);
+				$('.right_down').html(audiourl);
 			}
 			
 		)
