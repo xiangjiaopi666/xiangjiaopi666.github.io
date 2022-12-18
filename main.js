@@ -61,62 +61,62 @@ $(document).ready(
 				*/
 				var audiourl = '';
 				var audiotranslate='';
+				var k = 0;
 				for (j = 0 ; j<30;j++) {
 					/*audiotranslate=kai_translate[j];/*需要判断点击的id*/
 					if ($(this).attr("id")=='awt') {
-						audiotranslate=awt_translate[j];
+						audiotranslate=awt_translate[k];
 					} else if ($(this).attr("id")=='bic'){
-						audiotranslate=bic_translate[j];
+						audiotranslate=bic_translate[k];
 					} else if ($(this).attr("id")=='bin'){
-						audiotranslate=bin_translate[j];
+						audiotranslate=bin_translate[k];
 					} else if ($(this).attr("id")=='ecg'){
-						audiotranslate=ecg_translate[j];
+						audiotranslate=ecg_translate[k];
 					} else if ($(this).attr("id")=='har'){
-						audiotranslate=har_translate[j];
+						audiotranslate=har_translate[k];
 					} else if ($(this).attr("id")=='hit'){
-						audiotranslate=hit_translate[j];
+						audiotranslate=hit_translate[k];
 					} else if ($(this).attr("id")=='hiz'){
-						audiotranslate=hiz_translate[j];
+						audiotranslate=hiz_translate[k];
 					} else if ($(this).attr("id")=='iga'){
-						audiotranslate=iga_translate[j];
+						audiotranslate=iga_translate[k];
 					} else if ($(this).attr("id")=='ina'){
-						audiotranslate=ina_translate[j];
+						audiotranslate=ina_translate[k];
 					} else if ($(this).attr("id")=='iwm'){
-						audiotranslate=iwm_translate[j];
+						audiotranslate=iwm_translate[k];
 					} else if ($(this).attr("id")=='kag'){
-						audiotranslate=kag_translate[j];
+						audiotranslate=kag_translate[k];
 					} else if ($(this).attr("id")=='kai'){
-						audiotranslate=kai_translate[j];
+						audiotranslate=kai_translate[k];
 					} else if ($(this).attr("id")=='kaw'){
-						audiotranslate=kaw_translate[j];
+						audiotranslate=kaw_translate[k];
 					} else if ($(this).attr("id")=='kaz'){
-						audiotranslate=kaz_translate[j];
+						audiotranslate=kaz_translate[k];
 					} else if ($(this).attr("id")=='mik'){
-						audiotranslate=mik_translate[j];
+						audiotranslate=mik_translate[k];
 					} else if ($(this).attr("id")=='mus'){
-						audiotranslate=mus_translate[j];
+						audiotranslate=mus_translate[k];
 					} else if ($(this).attr("id")=='osu'){
-						audiotranslate=osu_translate[j];
+						audiotranslate=osu_translate[k];
 					} else if ($(this).attr("id")=='oum'){
-						audiotranslate=oum_translate[j];
+						audiotranslate=oum_translate[k];
 					} else if ($(this).attr("id")=='san'){
-						audiotranslate=san_translate[j];
+						audiotranslate=san_translate[k];
 					} else if ($(this).attr("id")=='sim'){
-						audiotranslate=sim_translate[j];
+						audiotranslate=sim_translate[k];
 					} else if ($(this).attr("id")=='sin'){
-						audiotranslate=sin_translate[j];
+						audiotranslate=sin_translate[k];
 					} else if ($(this).attr("id")=='taj'){
-						audiotranslate=taj_translate[j];
+						audiotranslate=taj_translate[k];
 					} else if ($(this).attr("id")=='tnb'){
-						audiotranslate=tnb_translate[j];
+						audiotranslate=tnb_translate[k];
 					} else if ($(this).attr("id")=='wak'){
-						audiotranslate=wak_translate[j];
+						audiotranslate=wak_translate[k];
 					} else if ($(this).attr("id")=='ymt'){
-						audiotranslate=ymt_translate[j];
+						audiotranslate=ymt_translate[k];
 					} else if ($(this).attr("id")=='yzm'){
-						audiotranslate=yzm_translate[j];
+						audiotranslate=yzm_translate[k];
 					}
-					console.log(audiotranslate);
 					if (j<10) {
 						j = '00' + j
 					} else {
@@ -125,9 +125,10 @@ $(document).ready(
 					var xyz = 'audio' + j;
 					/*src="https://tukitama.com/tamacolle/resources/v_kai_001.mp3"*/
 					/*xyz = '<audio src="audio/'+$(this).attr("id")+'/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';*/
-					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls>"</audio><div class="translate"><h4>'+ audiotranslate +'</h4></div></div>';
-					console.log(xyz);
+					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls></audio><div class="translate"><h4>'+ audiotranslate +'</h4></div></div>';
+					/*console.log(kai_translate[8]);*/
 					audiourl = audiourl + xyz;
+					k++;
 				}
 				$('.right_down').html(audiourl);
 				/*console.log(kai_translate[23]);
