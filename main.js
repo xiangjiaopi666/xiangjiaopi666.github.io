@@ -70,7 +70,7 @@ $(document).ready(
 					var xyz = 'audio' + j;
 					/*src="https://tukitama.com/tamacolle/resources/v_kai_001.mp3"*/
 					/*xyz = '<audio src="audio/'+$(this).attr("id")+'/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';*/
-					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls>"</audio><h4 style="display: flex">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</h4></div>';
+					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls>"</audio><div class="translate"><h4>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</h4></div></div>';
 					audiourl = audiourl + xyz;
 				}
 				$('.right_down').html(audiourl);

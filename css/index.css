@@ -62,21 +62,27 @@ body{
 	position: absolute;
 	max-height: 87.5%;
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 .right_down audio{
-	padding-top: 4px;
+	padding-top: 15px;
 }
 .audio_father{
-	height: 96px;
+	height: 150px;
 	width: 512px;
 	background-image: url('../img/talk.png');
 }
-.audio_father h3,h4{
+.audio_father h3{
 	display: inline-block;
 	color: aliceblue;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 50px;
 }
 .audio_father h4{
-	background-color: burlywood;
+	color: aliceblue;
+	padding-left: 20px;
+	padding-right: 40px;
 }
 
 
