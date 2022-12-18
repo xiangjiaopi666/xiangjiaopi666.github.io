@@ -60,7 +60,10 @@ $(document).ready(
 																													<audio src="audio/kai/v_kai_000.mp3" id="v_kai_000"></audio>
 				*/
 				var audiourl = '';
+				var audiotranslate='';
 				for (j = 0 ; j<30;j++) {
+					audiotranslate=kai_translate[j];/*需要判断点击的id*/
+					console.log(j+':'+audiotranslate)
 					if (j<10) {
 						j = '00' + j
 						
@@ -70,10 +73,12 @@ $(document).ready(
 					var xyz = 'audio' + j;
 					/*src="https://tukitama.com/tamacolle/resources/v_kai_001.mp3"*/
 					/*xyz = '<audio src="audio/'+$(this).attr("id")+'/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';*/
-					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls>"</audio><div class="translate"><h4>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</h4></div></div>';
+					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls>"</audio><div class="translate"><h4>'+ audiotranslate +'</h4></div></div>';
 					audiourl = audiourl + xyz;
 				}
 				$('.right_down').html(audiourl);
+				/*console.log(kai_translate[23]);
+				console.log(kai_translate[24]);*/
 			}
 			
 		)
