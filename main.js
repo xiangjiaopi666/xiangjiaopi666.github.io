@@ -62,60 +62,60 @@ $(document).ready(
 				var audiourl = '';
 				var audiotranslate='';
 				var k = 0;
-				for (j = 0 ; j<30;j++) {
+				for (j = 0 ; j<60;j++) {
 					/*audiotranslate=kai_translate[j];/*需要判断点击的id*/
 					if ($(this).attr("id")=='awt') {
-						audiotranslate=awt_translate[k];
+						audiotranslate=awt_translate[j];
 					} else if ($(this).attr("id")=='bic'){
-						audiotranslate=bic_translate[k];
+						audiotranslate=bic_translate[j];
 					} else if ($(this).attr("id")=='bin'){
-						audiotranslate=bin_translate[k];
+						audiotranslate=bin_translate[j];
 					} else if ($(this).attr("id")=='ecg'){
-						audiotranslate=ecg_translate[k];
+						audiotranslate=ecg_translate[j];
 					} else if ($(this).attr("id")=='har'){
-						audiotranslate=har_translate[k];
+						audiotranslate=har_translate[j];
 					} else if ($(this).attr("id")=='hit'){
-						audiotranslate=hit_translate[k];
+						audiotranslate=hit_translate[j];
 					} else if ($(this).attr("id")=='hiz'){
-						audiotranslate=hiz_translate[k];
+						audiotranslate=hiz_translate[j];
 					} else if ($(this).attr("id")=='iga'){
-						audiotranslate=iga_translate[k];
+						audiotranslate=iga_translate[j];
 					} else if ($(this).attr("id")=='ina'){
-						audiotranslate=ina_translate[k];
+						audiotranslate=ina_translate[j];
 					} else if ($(this).attr("id")=='iwm'){
-						audiotranslate=iwm_translate[k];
+						audiotranslate=iwm_translate[j];
 					} else if ($(this).attr("id")=='kag'){
 						audiotranslate=kag_translate[k];
 					} else if ($(this).attr("id")=='kai'){
-						audiotranslate=kai_translate[k];
+						audiotranslate=kai_translate[j];
 					} else if ($(this).attr("id")=='kaw'){
-						audiotranslate=kaw_translate[k];
+						audiotranslate=kaw_translate[j];
 					} else if ($(this).attr("id")=='kaz'){
-						audiotranslate=kaz_translate[k];
+						audiotranslate=kaz_translate[j];
 					} else if ($(this).attr("id")=='mik'){
-						audiotranslate=mik_translate[k];
+						audiotranslate=mik_translate[j];
 					} else if ($(this).attr("id")=='mus'){
-						audiotranslate=mus_translate[k];
+						audiotranslate=mus_translate[j];
 					} else if ($(this).attr("id")=='osu'){
-						audiotranslate=osu_translate[k];
+						audiotranslate=osu_translate[j];
 					} else if ($(this).attr("id")=='oum'){
-						audiotranslate=oum_translate[k];
+						audiotranslate=oum_translate[j];
 					} else if ($(this).attr("id")=='san'){
-						audiotranslate=san_translate[k];
+						audiotranslate=san_translate[j];
 					} else if ($(this).attr("id")=='sim'){
-						audiotranslate=sim_translate[k];
+						audiotranslate=sim_translate[j];
 					} else if ($(this).attr("id")=='sin'){
-						audiotranslate=sin_translate[k];
+						audiotranslate=sin_translate[j];
 					} else if ($(this).attr("id")=='taj'){
-						audiotranslate=taj_translate[k];
+						audiotranslate=taj_translate[j];
 					} else if ($(this).attr("id")=='tnb'){
-						audiotranslate=tnb_translate[k];
+						audiotranslate=tnb_translate[j];
 					} else if ($(this).attr("id")=='wak'){
-						audiotranslate=wak_translate[k];
+						audiotranslate=wak_translate[j];
 					} else if ($(this).attr("id")=='ymt'){
-						audiotranslate=ymt_translate[k];
+						audiotranslate=ymt_translate[j];
 					} else if ($(this).attr("id")=='yzm'){
-						audiotranslate=yzm_translate[k];
+						audiotranslate=yzm_translate[j];
 					}
 					if (j<10) {
 						j = '00' + j
