@@ -125,7 +125,7 @@ $(document).ready(
 					var xyz = 'audio' + j;
 					/*src="https://tukitama.com/tamacolle/resources/v_kai_001.mp3"*/
 					/*xyz = '<audio src="audio/'+$(this).attr("id")+'/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';*/
-					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls controlsList="nodownload"></audio><div class="translate"><h4>'+ audiotranslate +'</h4></div></div>';
+					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls controlsList="nodownload noplaybackrate"></audio><div class="translate"><h4>'+ audiotranslate +'</h4></div></div>';
 					/*console.log(j);
 					console.log(awt_translate[8]);
 					console.log(audiotranslate);*/
