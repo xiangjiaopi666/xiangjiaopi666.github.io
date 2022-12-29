@@ -89,7 +89,11 @@ body{
 	padding-left: 20px;
 	padding-right: 40px;
 }
-
+.translate  h4{
+	width: 460px;
+	height: 60px;
+	overflow-y: auto;
+}
 
 
 
