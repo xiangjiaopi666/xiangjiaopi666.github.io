@@ -44,15 +44,18 @@ $(document).ready(
 	function(){
 		$(".left>img").click(
 			function (){
-				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png"></img>';
+				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png" alt=\'\'></img>';
 				$('.center_top').html(skillurl);
+				/*<img src="name_tnb.png" alt="" style="position: absolute;">*/
+				var bodyurl0 = '<img src= "img/body/'+$(this).attr("id")+'/senjafuda_'+ $(this).attr("id")+'.png" alt=\'\' style="position: absolute;"> '
 				var bodyurl1 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
 				var bodyurl2 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png" alt=\'\'>';
 				var bodyurl3 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
 				var bodyurl4 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_bath_body.png" alt=\'\'>';
 				var bodyurl5 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_pa_body.png" alt=\'\'>';
 				var bodyurl6 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
-				var bodyurl=bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6;
+				var bodyurl=bodyurl0+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6;
+				console.log(bodyurl0);
 				$('.center_down').html(bodyurl);
 				var faceurl = '';
 				for (i = 0;i <20;i++) {
@@ -77,6 +80,8 @@ $(document).ready(
 						audiotranslate=awt_translate[j];
 					} else if ($(this).attr("id")=='bic'){
 						audiotranslate=bic_translate[j];
+					} else if ($(this).attr("id")=='a000'){
+						audiotranslate=a000_translate[j];
 					} else if ($(this).attr("id")=='bin'){
 						audiotranslate=bin_translate[j];
 					} else if ($(this).attr("id")=='ecg'){

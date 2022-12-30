@@ -16,7 +16,7 @@ body{
 .left{
 	width: 148px;
 	max-height: 1152px;
-	background-color: black;
+	background-color: antiquewhite;
 	overflow-y: auto;
 	overflow-x: hidden;
 	position: absolute;
@@ -44,10 +44,10 @@ body{
 .right{
 	height: 1152px;
 	width: 512px;
-	background-color: red;
+	background-color: antiquewhite;
 	position: absolute;
 	left: 1152px;
-	background-image: url('../img/talkbg3.png');
+	/*background-image: url('../img/talkbg3.png');*/
 	background-repeat: repeat-x;
 	background-size: 20%;
 }
