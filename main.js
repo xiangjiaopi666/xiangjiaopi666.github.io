@@ -9,44 +9,12 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 
-/*function play() {
-		    var audio = document.getElementById('v_kai_000');
-		    if (audio.paused) {
-		        audio.play();
-		    }else{
-		        audio.pause();
-		        audio.currentTime = 0;//音乐从头播放
-		    }
-		}
-/*function (){
-	$(".left-up").css("background-color","darkmagenta")
-}
-$(document).ready(
-	function(){
-			$('.juese').click(
-				function(){
-					var bigimgsrc = '<img src= ' + $(this).attr("src") + '></img>';
-					$('#bigimg').html($(bigimgsrc)).animate({height:1024});
-				/*	$('#bigimg').html($(bigimg)).animate({width:1024});
-				}
-			)
-/*			$("#bigimg").click(
-				function(){
-					$('#bigimg').html($(bigimg)).animate({height:0});
-					$('#bigimg').html($(bigimg)).animate({width:0});
-				}
-			)
-		}
-)*/
-
-/*			img/skill/c_kag.png		*/
 $(document).ready(
 	function(){
 		$(".left>img").click(
 			function (){
 				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png" alt=\'\'></img>';
 				$('.center_top').html(skillurl);
-				/*<img src="name_tnb.png" alt="" style="position: absolute;">*/
 				var bodyurl0 = '<img src= "img/body/'+$(this).attr("id")+'/senjafuda_'+ $(this).attr("id")+'.png" alt=\'\' style="position: absolute;"> '
 				var bodyurl1 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
 				var bodyurl2 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png" alt=\'\'>';
@@ -54,8 +22,9 @@ $(document).ready(
 				var bodyurl4 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_bath_body.png" alt=\'\'>';
 				var bodyurl5 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_pa_body.png" alt=\'\'>';
 				var bodyurl6 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
-				var bodyurl=bodyurl0+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6;
-				console.log(bodyurl0);
+				var bodyurl7 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
+				var bodyurl8 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_dbody.png" alt=\'\'>';
+				var bodyurl=bodyurl0+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8;
 				$('.center_down').html(bodyurl);
 				var faceurl = '';
 				for (i = 0;i <20;i++) {
@@ -67,15 +36,10 @@ $(document).ready(
 					faceurl = faceurl + obj;
 				}
 				$('.right_top').html(faceurl);
-				/*
-				<img src="img/faceall/kai/s_kai_def_face_01.png" alt="" onclick="play()">
-																													<audio src="audio/kai/v_kai_000.mp3" id="v_kai_000"></audio>
-				*/
 				var audiourl = '';
 				var audiotranslate='';
 				var k = 0;
 				for (j = 0 ; j<60;j++) {
-					/*audiotranslate=kai_translate[j];/*需要判断点击的id*/
 					if ($(this).attr("id")=='awt') {
 						audiotranslate=awt_translate[j];
 					} else if ($(this).attr("id")=='bic'){
@@ -137,18 +101,12 @@ $(document).ready(
 						j = '0' +j
 					}
 					var xyz = 'audio' + j;
-					/*src="https://tukitama.com/tamacolle/resources/v_kai_001.mp3"*/
-					/*xyz = '<audio src="audio/'+$(this).attr("id")+'/v_'+$(this).attr("id")+'_'+j+'.mp3" controls="controls">"</audio>';*/
 					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls controlsList="nodownload noplaybackrate"></audio><div class="translate"><h4>'+ audiotranslate +'</h4></div></div>';
-					/*console.log(j);
-					console.log(awt_translate[8]);
-					console.log(audiotranslate);*/
 					audiourl = audiourl + xyz;
 					k++;
 				}
 				$('.right_down').html(audiourl);
-				/*console.log(kai_translate[23]);
-				console.log(kai_translate[24]);*/
+				
 			}
 			
 		)
