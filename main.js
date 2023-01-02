@@ -13,6 +13,10 @@ $(document).ready(
 	function(){
 		$(".left>img").click(
 			function (){
+				/*公告栏最小化*/
+				$(".BulletinBoard").animate({height:0});
+				$(".BulletinBoard").animate({width:0});
+				/*公告栏最小化*/
 				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png" alt=\'\'></img>';
 				$('.center_top').html(skillurl);
 				var bodyurl0 = '<img src= "img/body/'+$(this).attr("id")+'/senjafuda_'+ $(this).attr("id")+'.png" alt=\'\' style="position: absolute;"> '
