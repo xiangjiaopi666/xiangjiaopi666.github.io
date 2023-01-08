@@ -28,18 +28,25 @@ $(document).ready(
 				var bodyurl2 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
 				var bodyurl3 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
 				var bodyurl4 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_dbody.png" alt=\'\'>';
-				var bodyurl=bodyurl0+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8;
+				var bodyurl9 = '<img src= "img/body/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_body.png" alt=\'\'>';
+				var bodyurl=bodyurl0+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9;
 				$('.center_down').html(bodyurl);
 				var faceurl = '';
+				var facebathurl = '';
+				var faceall = '';
 				for (i = 0;i <20;i++) {
 					if(i<10){
 						i = '0' + i
 					}
-					var obj = 'faceurl'+i;
-					obj='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_face_'+i+'.png" alt=\'\' class="faceall">';
-					faceurl = faceurl + obj;
+					var obj1 = 'faceurl'+i;
+					var obj2 = 'facebathurl'+i;
+					obj1='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_face_'+i+'.png" alt=\'\' class="faceall">';
+					obj2='<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_'+i+'.png" alt=\'\' class="faceall" width=\'128px\' height=\'128px\'>';
+					faceurl = faceurl + obj1;
+					facebathurl = facebathurl + obj2;
 				}
-				$('.right_top').html(faceurl);
+				faceall = faceurl + facebathurl;
+				$('.right_top').html(faceall);
 				var audiourl = '';
 				var audiotranslate='';
 				var k = 0;
