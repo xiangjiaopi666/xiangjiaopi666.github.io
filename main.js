@@ -20,16 +20,17 @@ $(document).ready(
 				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png" alt=\'\'></img>';
 				$('.center_top').html(skillurl);
 				var bodyurl0 = '<img src= "img/body/'+$(this).attr("id")+'/senjafuda_'+ $(this).attr("id")+'.png" alt=\'\' style="position: absolute;"> '
-				var bodyurl5 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
-				var bodyurl6 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png" alt=\'\'>';
-				var bodyurl7 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
-				var bodyurl8 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_bath_body.png" alt=\'\'>';
-				var bodyurl1 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_pa_body.png" alt=\'\'>';
-				var bodyurl2 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
-				var bodyurl3 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
-				var bodyurl4 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_dbody.png" alt=\'\'>';
-				var bodyurl9 = '<img src= "img/body/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_body.png" alt=\'\'>';
-				var bodyurl=bodyurl0+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9;
+				var bodyurl1 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
+				var bodyurl2 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png" alt=\'\'>';
+				var bodyurl3 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
+				var bodyurl4 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_bath_body.png" alt=\'\'>';
+				var bodyurl5 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_pa_body.png" alt=\'\'>';
+				var bodyurl6 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
+				var bodyurl7 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
+				var bodyurl8 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_dbody.png" alt=\'\'>';
+				var bodyurl99 = '<img src= "img/body/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_body.png" alt=\'\'>'; /*永远最后*/
+				var bodyurl10 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ny_body.png" alt=\'\'>';
+				var bodyurl=bodyurl0+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl99;
 				$('.center_down').html(bodyurl);
 				var faceurl = '';
 				var facebathurl = '';
@@ -85,6 +86,8 @@ $(document).ready(
 						audiotranslate=mik_translate[j];
 					} else if ($(this).attr("id")=='mus'){
 						audiotranslate=mus_translate[j];
+					} else if ($(this).attr("id")=='oki'){
+						audiotranslate=oki_translate[j];
 					} else if ($(this).attr("id")=='osu'){
 						audiotranslate=osu_translate[j];
 					} else if ($(this).attr("id")=='oum'){
