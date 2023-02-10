@@ -41,7 +41,7 @@ $(document).ready(
 					}
 					var obj1 = 'faceurl'+i;
 					var obj2 = 'facebathurl'+i;
-					obj1='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_face_'+i+'.png" alt=\'\' class="faceall">';
+					obj1='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_face_'+i+'.png" alt=\'\' class="faceall" height=\'128px\'>';
 					obj2='<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_'+i+'.png" alt=\'\' class="faceall" width=\'128px\' height=\'128px\'>';
 					faceurl = faceurl + obj1;
 					facebathurl = facebathurl + obj2;
@@ -58,6 +58,8 @@ $(document).ready(
 						audiotranslate=bic_translate[j];
 					} else if ($(this).attr("id")=='a000'){
 						audiotranslate=a000_translate[j];
+					} else if ($(this).attr("id")=='s003'){
+						audiotranslate=s003_translate[j];
 					} else if ($(this).attr("id")=='bin'){
 						audiotranslate=bin_translate[j];
 					} else if ($(this).attr("id")=='ecg'){
@@ -74,6 +76,8 @@ $(document).ready(
 						audiotranslate=ina_translate[j];
 					} else if ($(this).attr("id")=='iwm'){
 						audiotranslate=iwm_translate[j];
+					} else if ($(this).attr("id")=='iyo'){
+						audiotranslate=iyo_translate[j];
 					} else if ($(this).attr("id")=='kag'){
 						audiotranslate=kag_translate[k];
 					} else if ($(this).attr("id")=='kai'){
@@ -102,6 +106,8 @@ $(document).ready(
 						audiotranslate=taj_translate[j];
 					} else if ($(this).attr("id")=='tnb'){
 						audiotranslate=tnb_translate[j];
+					} else if ($(this).attr("id")=='tos'){
+						audiotranslate=tos_translate[j];
 					} else if ($(this).attr("id")=='wak'){
 						audiotranslate=wak_translate[j];
 					} else if ($(this).attr("id")=='ymt'){
