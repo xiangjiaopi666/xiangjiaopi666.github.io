@@ -34,6 +34,7 @@ $(document).ready(
 				$('.center_down').html(bodyurl);
 				var faceurl = '';
 				var facebathurl = '';
+				var faceaw ='';
 				var faceall = '';
 				for (i = 0;i <20;i++) {
 					if(i<10){
@@ -41,12 +42,15 @@ $(document).ready(
 					}
 					var obj1 = 'faceurl'+i;
 					var obj2 = 'facebathurl'+i;
+					var obj3 = 'faceaw'+i;
 					obj1='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_face_'+i+'.png" alt=\'\' class="faceall" height=\'128px\'>';
 					obj2='<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_'+i+'.png" alt=\'\' class="faceall" width=\'128px\' height=\'128px\'>';
+					obj3='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_face_'+i+'.png" alt=\'\' class="faceall" width=\'128px\' height=\'128px\'>';
 					faceurl = faceurl + obj1;
 					facebathurl = facebathurl + obj2;
+					faceaw = faceaw + obj3;
 				}
-				faceall = faceurl + facebathurl;
+				faceall = faceurl + facebathurl+faceaw;
 				$('.right_top').html(faceall);
 				var audiourl = '';
 				var audiotranslate='';
