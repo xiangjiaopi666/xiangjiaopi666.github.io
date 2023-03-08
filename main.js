@@ -30,7 +30,8 @@ $(document).ready(
 				var bodyurl8 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_dbody.png" alt=\'\'>';
 				var bodyurl99 = '<img src= "img/body/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_body.png" alt=\'\'>'; /*永远最后*/
 				var bodyurl10 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ny_body.png" alt=\'\'>';
-				var bodyurl=bodyurl0+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl99;
+				var bodyurl9 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ev_body.png" alt=\'\'>';
+				var bodyurl=bodyurl0+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9+bodyurl99;
 				$('.center_down').html(bodyurl);
 				var faceurl = '';
 				var facebathurl = '';
