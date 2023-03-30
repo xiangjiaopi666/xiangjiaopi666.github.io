@@ -1,6 +1,6 @@
 window.new_message = new Array;
 new_message[0] = "【已翻译】甲斐，但马，大隅，武藏，常陆，座敷童子，志摩，和泉，加贺，伊予，近江，畿内<br/>【网站首页】<a href=\"https://xiangjiaopi666.netlify.app\" target=\"_blank\">无需代理可直接访问</a><br/>请使用跳转后的新网址";
-new_message[1] = "添加【筑后】角色贴图及语音<br/>2023.3.11";
+new_message[1] = "添加【筑后】角色贴图及语音<br/>2023.3.30";
 new_message[2] = "根据B站<a href=\"https://space.bilibili.com/2518055\" target=\"_blank\">【工具人虚幻光影】</a>大佬的视频，暂时只翻译了甲斐和但马的语音，后续会慢慢增加";
 new_message[3] = "添加【近江，畿内】部分语音。(角色说话突出人物性格的特殊发音越来越多，机翻越来越听不懂了😭😭😭😭)<br/>2023.3.11";
 new_message[4] = "添加【越后，和泉，伊予】秋冬服，【若狭】糕点师服<br/>2023.3.8";
