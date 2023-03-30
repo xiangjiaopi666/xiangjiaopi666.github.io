@@ -59,6 +59,8 @@ $(document).ready(
 						audiotranslate=s003_translate[j];
 					} else if ($(this).attr("id")=='bin'){
 						audiotranslate=bin_translate[j];
+					} else if ($(this).attr("id")=='ckg'){
+						audiotranslate=ckg_translate[j];	
 					} else if ($(this).attr("id")=='ecg'){
 						audiotranslate=ecg_translate[j];
 					} else if ($(this).attr("id")=='har'){
