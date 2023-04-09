@@ -23,7 +23,11 @@ $(document).ready(
 				var bodyurl99 = '<img src= "img/body/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_body.png" alt=\'\'>'; /*永远最后*/
 				var bodyurl10 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ny_body.png" alt=\'\'>';
 				var bodyurl9 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ev_body.png" alt=\'\'>';
-				var bodyurl=bodyurl0+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9+bodyurl99;
+				var bodyurl11 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ss_body.png" alt=\'\'>';
+				var bodyurl12 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_ss_body.png" alt=\'\'>';
+				var bodyurl13 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_ss_dbody.png" alt=\'\'>';
+				/*https://tukitama.com/tamacolle/resources/s_bic_ss_body.png*/
+				var bodyurl=bodyurl0+bodyurl11+bodyurl12+bodyurl13+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9+bodyurl99;
 				$('.center_down').html(bodyurl);
 				var faceurl = '';
 				var facebathurl = '';
