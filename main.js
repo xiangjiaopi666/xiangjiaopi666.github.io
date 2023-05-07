@@ -10,7 +10,9 @@ $(document).ready(
 				/*公告栏最小化*/
 				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png" alt=\'\'></img>';
 				$('.center_top').html(skillurl);
-				var bodyurl0 = '<img src= "img/body/'+$(this).attr("id")+'/senjafuda_'+ $(this).attr("id")+'.png" alt=\'\' style="position: absolute;"> '
+				var bodyurl0 = '<img src= "img/body/'+$(this).attr("id")+'/senjafuda_'+ $(this).attr("id")+'.png" alt=\'\' style="position: absolute;"> ';
+				var bodyurl00 = '<img src= "img/skill/cname_'+$(this).attr("id")+'_def.png" alt=\'\' style="position: absolute;"> ';
+				var bodyurl01 = '<img src= "img/body/'+$(this).attr("id")+'/sdi_'+ $(this).attr("id")+'.png" alt=\'\' style="left:70px;top:60px;position: absolute;" > ';
 				var bodyurl1 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
 				var bodyurl2 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png" alt=\'\'>';
 				var bodyurl3 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
@@ -29,7 +31,7 @@ $(document).ready(
 				var bodyurl98 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_02.png" alt=\'\' width=\'341px\'>';
 				var bodyurl99 = '<img src= "img/body/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_body.png" alt=\'\'>'; /*永远最后*/
 				/*https://tukitama.com/tamacolle/resources/s_bic_ss_body.png*/
-				var bodyurl=bodyurl0+bodyurl11+bodyurl12+bodyurl13+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9+bodyurl96+bodyurl97+bodyurl98+bodyurl99;
+				var bodyurl=bodyurl0+bodyurl00+bodyurl01+bodyurl11+bodyurl12+bodyurl13+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9+bodyurl96+bodyurl97+bodyurl98+bodyurl99;
 				$('.center_down').html(bodyurl);
 				var faceurl = '';
 				var facebathurl = '';
