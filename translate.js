@@ -1,6 +1,6 @@
 window.new_message = new Array;
 new_message[0] = "【网站首页】<a style=\"color: blue;\" href=\"https://xiangjiaopi666.netlify.app\" target=\"_blank\">无需代理可直接访问</a><br/><img src=\"img/bilibili.gif\"  height=\"50px\" height=\"50px\" alt=\"\"/><a style=\"color: blue;\" href=\"https://message.bilibili.com/?spm_id_from=..0.0#/whisper/mid11216760\" target=\"_blank\"><br/>电脑端点我私聊获取剩余超分辨率图</a>";
-new_message[1] = "新场景【私人房间】对应语音024-029";
+new_message[1] = "新场景【私人房间】对应语音024-029<br/>2023.5.13";
 new_message[2] = "因存储有限暂时只放出<a style=\"color: blue;\" href=\"./super_show/cg_loading_nion002.html\" target=\"_blank\">【常陆&大和】</a><a style=\"color: blue;\" href=\"./super_show/tm_b0004.html\" target=\"_blank\">【武藏&伊与】</a>点击即可查看<br/>🔥流量🔥 单图50M左右 加载较慢<br/>🔥卡顿🔥 10240*5760分辨率<br/>键盘同时按下ctrl和+/-可放大/缩小网页";
 new_message[3] = "补全【筑后,加贺,大和】服装<br/>新增超分辨率图(壁纸用)<br/>2023.5.9";
 new_message[4] = "添加所有角色技能名称图及迷你图<br/>2023.5.7";
