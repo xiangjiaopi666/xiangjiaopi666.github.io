@@ -56,7 +56,7 @@ $(document).ready(
 				var audiourl = '';
 				var audiotranslate='';
 				var k = 0;
-				for (j = 0 ; j<60;j++) {
+				for (j = 0 ; j<200;j++) {
 					if ($(this).attr("id")=='awt') {
 						audiotranslate=awt_translate[j];
 					} else if ($(this).attr("id")=='bic'){
@@ -126,8 +126,10 @@ $(document).ready(
 					}
 					if (j<10) {
 						j = '00' + j
-					} else {
+					} else if (j<100){
 						j = '0' +j
+					} else{
+						j = j
 					}
 					var xyz = 'audio' + j;
 					xyz = '<div class="audio_father"><h3>'+j+'</h3><audio src="https://tukitama.com/tamacolle/resources/v_'+$(this).attr("id")+'_'+j+'.mp3" controls controlsList="nodownload noplaybackrate"></audio><div class="translate"><h4>'+ audiotranslate +'</h4></div></div>';
