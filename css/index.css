@@ -7,6 +7,12 @@ body{
 	height: 100%;
 	min-height: 812px;
 }
+
+img[src=''],
+  img:not([src]) {
+    opacity: 0;
+  }
+  
 .all div{
 	display: inline-block;
 }

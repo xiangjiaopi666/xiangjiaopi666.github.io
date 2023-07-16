@@ -10,25 +10,25 @@ $(document).ready(
 				/*公告栏最小化*/
 				var skillurl = '<img src= "img/skill/c_' + $(this).attr("id") + '.png" alt=\'\'></img>';
 				$('.center_top').html(skillurl);
-				var bodyurl0 = '<img src= "img/body/'+$(this).attr("id")+'/senjafuda_'+ $(this).attr("id")+'.png" alt=\'\' style="position: absolute;"> ';
-				var bodyurl00 = '<img src= "img/skill/cname_'+$(this).attr("id")+'_def.png" alt=\'\' style="position: absolute;"> ';
-				var bodyurl01 = '<img src= "img/body/'+$(this).attr("id")+'/sdi_'+ $(this).attr("id")+'.png" alt=\'\' style="left:70px;top:60px;position: absolute;" > ';
-				var bodyurl1 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
-				var bodyurl2 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png" alt=\'\'>';
-				var bodyurl3 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_body.png" alt=\'\'>';
-				var bodyurl4 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_bath_body.png" alt=\'\'>';
-				var bodyurl5 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_pa_body.png" alt=\'\'>';
-				var bodyurl6 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
-				var bodyurl7 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_body.png" alt=\'\'>';
-				var bodyurl8 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_dbody.png" alt=\'\'>';
-				var bodyurl9 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ev_body.png" alt=\'\'>';
-				var bodyurl10 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ny_body.png" alt=\'\'>';
-				var bodyurl11 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ss_body.png" alt=\'\'>';
-				var bodyurl12 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_ss_body.png" alt=\'\'>';
-				var bodyurl13 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_ss_dbody.png" alt=\'\'>';
-				var bodyurl96 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_00.png" alt=\'\' width=\'341px\'>';
-				var bodyurl97 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_01.png" alt=\'\' width=\'341px\'>';
-				var bodyurl98 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_02.png" alt=\'\' width=\'341px\'>';
+				var bodyurl0 = '<img src= "img/body/'+$(this).attr("id")+'/senjafuda_'+ $(this).attr("id")+'.png" alt=\'\' style="position: absolute;">';
+				var bodyurl00 = '<img src= "img/skill/cname_'+$(this).attr("id")+'_def.png" alt=\'\' style="position: absolute;" onerror="this.style.display=\'none\'">';
+				var bodyurl01 = '<img src= "img/body/'+$(this).attr("id")+'/sdi_'+ $(this).attr("id")+'.png" alt=\'\' style="left:70px;top:60px;position: absolute;" >';
+				var bodyurl1 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl2 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_def_dbody.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl3 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl4 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_bath_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl5 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_pa_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl6 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl7 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl8 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_aw_dbody.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl9 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ev_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl10 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ny_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl11 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_ss_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl12 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_ss_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl13 = '<img src= "img/body/'+$(this).attr("id")+'/b_'+ $(this).attr("id")+'_ss_dbody.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl96 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_00.png" alt=\'\' width=\'341px\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl97 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_01.png" alt=\'\' width=\'341px\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl98 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_02.png" alt=\'\' width=\'341px\' onerror="this.style.display=\'none\'"/>';
 				var bodyurl99 = '<img src= "img/body/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_body.png" alt=\'\'>'; /*永远最后*/
 				/*https://tukitama.com/tamacolle/resources/s_bic_ss_body.png*/
 				var bodyurl=bodyurl0+bodyurl00+bodyurl01+bodyurl11+bodyurl12+bodyurl13+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9+bodyurl96+bodyurl97+bodyurl98+bodyurl99;
@@ -44,7 +44,7 @@ $(document).ready(
 					var obj1 = 'faceurl'+i;
 					var obj2 = 'facebathurl'+i;
 					var obj3 = 'faceaw'+i;
-					obj1='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_face_'+i+'.png" alt=\'\' class="faceall" height=\'128px\'>';
+					obj1='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_def_face_'+i+'.png" alt=\'\' class="faceall" height=\'128px\' onerror="this.style.display=\'none\'"/>';
 					/*obj2='<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_'+i+'.png" alt=\'\' class="faceall" width=\'128px\' height=\'128px\'>';
 					obj3='<img src= "img/faceall/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_aw_face_'+i+'.png" alt=\'\' class="faceall" width=\'128px\' height=\'128px\'>';*/
 					faceurl = faceurl + obj1;
@@ -65,6 +65,8 @@ $(document).ready(
 						audiotranslate=a000_translate[j];
 					} else if ($(this).attr("id")=='a005'){
 						audiotranslate=a005_translate[j];
+					} else if ($(this).attr("id")=='a006'){
+						audiotranslate=a006_translate[j];
 					} else if ($(this).attr("id")=='s003'){
 						audiotranslate=s003_translate[j];
 					} else if ($(this).attr("id")=='bin'){
