@@ -1,6 +1,6 @@
 window.new_message = new Array;
 new_message[0] = "【网站首页】<a style=\"color: blue;\" href=\"https://xiangjiaopi666.netlify.app\" target=\"_blank\">无需代理可直接访问</a><br/><img src=\"img/bilibili.gif\"  height=\"50px\" height=\"50px\" alt=\"\"/><a style=\"color: blue;\" href=\"https://message.bilibili.com/?spm_id_from=..0.0#/whisper/mid11216760\" target=\"_blank\"><br/>电脑端点我私聊获取剩余超分辨率图</a>";
-new_message[1] = "新增初始7个npc立绘头像语音<br/>不属于出战角色所以放到左侧滚动栏最后位置<br/>2023.8.21";
+new_message[1] = "应B站网友建议,新增初始7个npc立绘头像语音<br/>不属于出战角色所以放到左侧滚动栏最后位置<br/>2023.8.21";
 new_message[2] = "新增【备后,越后,肥前,纪伊】泳衣立绘<br/>2023.8.20";
 new_message[3] = "新增【上松,播磨,丹波,隐岐】泳衣立绘<br/>新增一张场景图<br/>2023.8.6";
 new_message[4] = "新增更多场景图(网站空间有限,只放出两张超清图,打开后缩放或右键保存查看)<br/><a style=\"color: blue;\" href=\"./super_show/cg_j01_mus_1.html\" target=\"_blank\">超清图1</a>   <a style=\"color: blue;\" href=\"./super_show/cg_op_mus.html\" target=\"_blank\">超清图2</a><br/>更新角色【鵺(yè)】<br/>2023.7.22";
