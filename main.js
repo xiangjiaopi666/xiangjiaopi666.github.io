@@ -65,6 +65,8 @@ $(document).ready(
 						audiotranslate=bic_translate[j];
 					} else if ($(this).attr("id")=='a000'){
 						audiotranslate=a000_translate[j];
+					} else if ($(this).attr("id")=='a002'){
+						audiotranslate=a002_translate[j];
 					} else if ($(this).attr("id")=='a005'){
 						audiotranslate=a005_translate[j];
 					} else if ($(this).attr("id")=='a006'){
