@@ -115,6 +115,8 @@ $(document).ready(
 						audiotranslate=osu_translate[j];
 					} else if ($(this).attr("id")=='oum'){
 						audiotranslate=oum_translate[j];
+					} else if ($(this).attr("id")=='owa'){
+						audiotranslate=owa_translate[j];
 					} else if ($(this).attr("id")=='sag'){
 						audiotranslate=sag_translate[j];
 					} else if ($(this).attr("id")=='san'){
