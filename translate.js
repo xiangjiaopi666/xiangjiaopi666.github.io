@@ -1,6 +1,6 @@
 window.new_message = new Array;
 new_message[0] = "【网站首页】<a style=\"color: blue;\" href=\"https://xiangjiaopi666.netlify.app\" target=\"_blank\">无需代理可直接访问</a><br/><img src=\"img/bilibili.gif\"  height=\"50px\" height=\"50px\" alt=\"\"/><a style=\"color: blue;\" href=\"https://message.bilibili.com/?spm_id_from=..0.0#/whisper/mid11216760\" target=\"_blank\"><br/>电脑端点我私聊获取剩余超分辨率图</a>";
-new_message[1] = "新增【尾张】角色贴图及语音<br/>2023.11.5";
+new_message[1] = "新增【尾张】角色贴图及语音<br/>新增16个角色相扑服<br/>2023.11.5";
 new_message[2] = "补全【火车】立绘<br/>新增【播磨,大和】春夏装<br/>新增【夜行妖,火车】相关魂百景<br/>2023.10.31";
 new_message[3] = "新增【俌中】赞助立绘<br/>新增未实装【神妖连结】角色立绘,头像<br/>2023.10.14";
 new_message[4] = "新增【安房,伊予,河内,石见】泳衣立绘<br/>2023.9.22";
