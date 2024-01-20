@@ -129,6 +129,8 @@ $(document).ready(
 						audiotranslate=sim_translate[j];
 					} else if ($(this).attr("id")=='sin'){
 						audiotranslate=sin_translate[j];
+					} else if ($(this).attr("id")=='smu'){
+						audiotranslate=smu_translate[j];
 					} else if ($(this).attr("id")=='taj'){
 						audiotranslate=taj_translate[j];
 					} else if ($(this).attr("id")=='tnb'){
