@@ -30,12 +30,13 @@ $(document).ready(
 				var bodyurl15 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_swim_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
 				var bodyurl16 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_sumo_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
 				var bodyurl17 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_xmas_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
+				var bodyurl18 = '<img src= "img/body/'+$(this).attr("id")+'/s_'+ $(this).attr("id")+'_skin1_body.png" alt=\'\' onerror="this.style.display=\'none\'"/>';
 				var bodyurl96 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_00.png" alt=\'\' width=\'341px\' onerror="this.style.display=\'none\'"/>';
 				var bodyurl97 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_01.png" alt=\'\' width=\'341px\' onerror="this.style.display=\'none\'"/>';
 				var bodyurl98 = '<img src= "img/faceall/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_face_02.png" alt=\'\' width=\'341px\' onerror="this.style.display=\'none\'"/>';
 				var bodyurl99 = '<img src= "img/body/'+$(this).attr("id")+'/y_'+ $(this).attr("id")+'_body.png" alt=\'\'>'; /*永远最后*/
 				/*https://tukitama.com/tamacolle/resources/s_bic_ss_body.png*/
-				var bodyurl=bodyurl0+bodyurl00+bodyurl17+bodyurl16+bodyurl15+bodyurl14+bodyurl01+bodyurl11+bodyurl12+bodyurl13+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9+bodyurl96+bodyurl97+bodyurl98+bodyurl99;
+				var bodyurl=bodyurl0+bodyurl00+bodyurl18+bodyurl17+bodyurl16+bodyurl15+bodyurl14+bodyurl01+bodyurl11+bodyurl12+bodyurl13+bodyurl10+bodyurl1+bodyurl2+bodyurl3+bodyurl4+bodyurl5+bodyurl6+bodyurl7+bodyurl8+bodyurl9+bodyurl96+bodyurl97+bodyurl98+bodyurl99;
 				$('.center_down').html(bodyurl);
 				var faceurl = '';
 				var facebathurl = '';
@@ -81,6 +82,8 @@ $(document).ready(
 						audiotranslate=s011_translate[j];
 					} else if ($(this).attr("id")=='bin'){
 						audiotranslate=bin_translate[j];
+					} else if ($(this).attr("id")=='biz'){
+						audiotranslate=biz_translate[j];
 					} else if ($(this).attr("id")=='bun'){
 						audiotranslate=bun_translate[j];	
 					} else if ($(this).attr("id")=='ckg'){
@@ -95,6 +98,8 @@ $(document).ready(
 						audiotranslate=hit_translate[j];
 					} else if ($(this).attr("id")=='hiz'){
 						audiotranslate=hiz_translate[j];
+					} else if ($(this).attr("id")=='hyu'){
+						audiotranslate=hyu_translate[j];
 					} else if ($(this).attr("id")=='iga'){
 						audiotranslate=iga_translate[j];
 					} else if ($(this).attr("id")=='ina'){
@@ -117,6 +122,8 @@ $(document).ready(
 						audiotranslate=mik_translate[j];
 					} else if ($(this).attr("id")=='mus'){
 						audiotranslate=mus_translate[j];
+					} else if ($(this).attr("id")=='not'){
+						audiotranslate=not_translate[j];
 					} else if ($(this).attr("id")=='oki'){
 						audiotranslate=oki_translate[j];
 					} else if ($(this).attr("id")=='osu'){
