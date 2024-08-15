@@ -1,5 +1,5 @@
 window.new_message = new Array;
-new_message[0] = "【网站首页】<a style=\"color: blue;\" href=\"https://xiangjiaopi666.netlify.app\" target=\"_blank\">无需代理可直接访问</a><br/><img src=\"img/bilibili.gif\"  height=\"50px\" height=\"50px\" alt=\"\"/><img src=\"img/aliyun1.png\" onclick=\"window.open('https://www.aliyundrive.com/s/ZCpvQuM1joL','_blank')\" height=\"50px\" height=\"50px\" alt=\"点我进入阿里云盘\"/><a style=\"color: blue;\" href=\"https://message.bilibili.com/?spm_id_from=..0.0#/whisper/mid11216760\" target=\"_blank\"><br/>电脑端点我私聊获取剩余超分辨率图</a>";
+new_message[0] = "【网站首页】<a style=\"color: blue;\" href=\"https://xiangjiaopi666.netlify.app\" target=\"_blank\">无需代理可直接访问</a><br/><img src=\"img/bilibili.gif\"  height=\"50px\" height=\"50px\" alt=\"\"/><img src=\"img/aliyun1.png\" onclick=\"window.open('https://www.alipan.com/s/tn4fx1pAoHn','_blank')\" height=\"50px\" height=\"50px\" alt=\"点我进入阿里云盘\"/><a style=\"color: blue;\" href=\"https://message.bilibili.com/?spm_id_from=..0.0#/whisper/mid11216760\" target=\"_blank\"><br/>电脑端点我私聊获取剩余超分辨率图</a>";
 new_message[1] = "有的地方为机翻,无法联系语境做到合理翻译,如果您能听懂可联系我纠错";
 new_message[2] = "图片或者语音加载不出来,确定不是自己网络问题后可B站私聊我解决";
 new_message[3] = "如果语音播放按钮无法点击,说明该序号无语音,往下翻即可";
