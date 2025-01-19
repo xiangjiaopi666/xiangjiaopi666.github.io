@@ -68,12 +68,26 @@ $(document).ready(
 						audiotranslate=bic_translate[j];
 					} else if ($(this).attr("id")=='a000'){
 						audiotranslate=a000_translate[j];
+					} else if ($(this).attr("id")=='a001'){
+						audiotranslate=a001_translate[j];
 					} else if ($(this).attr("id")=='a002'){
 						audiotranslate=a002_translate[j];
+					} else if ($(this).attr("id")=='a003'){
+						audiotranslate=a003_translate[j];
 					} else if ($(this).attr("id")=='a005'){
 						audiotranslate=a005_translate[j];
 					} else if ($(this).attr("id")=='a006'){
 						audiotranslate=a006_translate[j];
+					} else if ($(this).attr("id")=='a007'){
+						audiotranslate=a007_translate[j];
+					} else if ($(this).attr("id")=='a011'){
+						audiotranslate=a011_translate[j];
+					} else if ($(this).attr("id")=='a012'){
+						audiotranslate=a012_translate[j];
+					} else if ($(this).attr("id")=='a015'){
+						audiotranslate=a015_translate[j];
+					} else if ($(this).attr("id")=='a016'){
+						audiotranslate=a016_translate[j];
 					} else if ($(this).attr("id")=='a018'){
 						audiotranslate=a018_translate[j];
 					} else if ($(this).attr("id")=='s003'){
@@ -108,6 +122,8 @@ $(document).ready(
 						audiotranslate=iwm_translate[j];
 					} else if ($(this).attr("id")=='iyo'){
 						audiotranslate=iyo_translate[j];
+					} else if ($(this).attr("id")=='izu'){
+						audiotranslate=izu_translate[j];
 					} else if ($(this).attr("id")=='kag'){
 						audiotranslate=kag_translate[k];
 					} else if ($(this).attr("id")=='kai'){
@@ -122,6 +138,8 @@ $(document).ready(
 						audiotranslate=mik_translate[j];
 					} else if ($(this).attr("id")=='mus'){
 						audiotranslate=mus_translate[j];
+					} else if ($(this).attr("id")=='nag'){
+						audiotranslate=nag_translate[j];
 					} else if ($(this).attr("id")=='not'){
 						audiotranslate=not_translate[j];
 					} else if ($(this).attr("id")=='oki'){
@@ -142,6 +160,8 @@ $(document).ready(
 						audiotranslate=sin_translate[j];
 					} else if ($(this).attr("id")=='smu'){
 						audiotranslate=smu_translate[j];
+					} else if ($(this).attr("id")=='sur'){
+						audiotranslate=sur_translate[j];
 					} else if ($(this).attr("id")=='taj'){
 						audiotranslate=taj_translate[j];
 					} else if ($(this).attr("id")=='tnb'){
